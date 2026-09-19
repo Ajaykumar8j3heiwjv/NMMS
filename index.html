@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NMMS Tamil Nadu — Bilingual Learning Portal</title>
+<meta name="description" content="Tamil and English NMMS preparation portal for Tamil Nadu Class 8 students: study notes, daily quiz, mock tests, previous year questions and progress tracking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="ta">
+<a class="skip" href="#main" id="skiplink">Skip to content</a>
+
+<header class="top">
+  <div class="top-in">
+    <button class="brand" onclick="go('home')">
+      <span class="mark">N</span>
+      <span>NMMS<small id="brandsub">தமிழ்நாடு · 8ஆம் வகுப்பு</small></span>
+    </button>
+    <span class="spacer"></span>
+    <button class="pill" id="themebtn" title="Theme">◐</button>
+    <div class="langsw">
+      <button id="lta" onclick="setLang('ta')">தமிழ்</button>
+      <button id="len" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs"><div class="tabs-in" id="tabs"></div></nav>
+
+<main class="wrap" id="main"></main>
+
+<script src="js/i18n.js"></script>
+<script src="js/data/hero.js"></script>
+<script src="js/data/bank.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
